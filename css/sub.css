@@ -1,0 +1,127 @@
+ @charset "UTF-8";
+
+ #sub{width: 1260px; height:7800px;  margin:0 auto; padding: 36px;}
+ #submenu{width:1200px; height: 50px; margin: 0 auto; }
+ #submenu >ul >li{font-size: 15px; font-weight: bold; float: left; padding: 15px;}
+ 
+
+#productimg {width:600px;  height: 760px; margin: 0 0 0 30px; float: left;}
+ #productimg > #box >#product > ul >li {float:left; margin:5px 10px 0 0;}
+ #productimg > #box >#product > ul >li:hover {cursor:pointer;}
+      #productimg >#box {width:510px; height:470px; background-color:rgb(119, 117, 104); margin: 44px 0 0 43px;}
+      #productimg > #box >#product {width:100%; height:150px; margin: 20px 0 0 10px;}
+      #productimg > #box >.w1 {width:100%; height:100%;}
+      #productimg > #box >#product> ul> li >img {width:100px; height: 100px; margin: 0 0 0 15px; }
+
+      #product{width:600px; height: 760px; float:right; margin:0 30px 0 0px;}
+ #product >h1{font-size: 25px; font-weight: bold;  padding: 20px; margin: 35px 0 12px 0px;}
+ #product >p{font-size: 15px; line-height: 30px; padding: 15px; margin:-25px 0 10px 10px; color: rgb(104, 104, 104);}
+ #product >h2{font-size: 20px; font-weight: bold;  padding: 15px;  margin:-22px 0 15px 10px;}
+ table{height: 350px; font-size: 18px; margin:0 0 0 20px; width:500px; border-top:2px solid #999; border-bottom:2px solid #999;  }
+ .table-td{padding: 12px; font-weight: bold; font-size: 18px;}
+ .table-th{padding: 12px; color:#000; font-size: 18px;}
+ #total{font-size: 24px; color: #000; font-weight: bold; padding: 12px;}
+
+select{height: 30px;}
+#option{width:300px;}
+#add{width:300px;}
+#number{width: 100px;}
+
+button{ width: 120px; height: 50px; margin: 4px; cursor: pointer; display: inline-block; float: left;}
+#cart >button{width:140px; background-color:#f0f0f0; margin: 14px 0 0 25px; border-radius:1px; padding:10px 20px; color:#000000; border:none;  border:1px solid  #000000; }
+#buy >button {width:140px; background-color:#f0f0f0; margin: 14px 0 0 10px; border-radius:1px; padding:10px 20px; color:#000000; border:none; border:1px solid  #000000; }
+#present >button{background-color:#fff;margin: 14px 0 0 20px; border-radius:1px; padding:10px 20px; color:#000000; border:none;  border:1px solid  #000000;}
+#heart >button {font-size: 40px; width:55px; margin: 14px 0 0 10px; text-align: center; background-color:#fff; border-radius:1px; color:#000000; border:none;  border:1px solid  #000000; }
+#cart >button:hover{background-color:#000000; color: #fff;}
+#buy >button:hover{background-color:#000000; color: #fff;}
+#present >button:hover{background-color:#000000; color: #fff;}
+#heart >button:hover{background-color:#ffffff; color: #ff0505;}
+
+ #recommend{width:1200px; height:400px;  margin: 770px 0 0 30px; border:3px solid #999} 
+ #best{font-size: 20px; font-weight: bold; padding:15px;}
+.best {width:220px; height: 220px; background-color: #ff0303; float:left; margin: 10px 9px 0 10px;}
+.best >a >img{width: 100%; height:100%;}
+#recommend>.best >h2{font-size: 17px; margin: 10px 0 0 0px; line-height: 25px;}
+#recommend>.best >h3{font-size: 17px; margin: 10px 0 0 0px; color: #6d6d6d;}
+ 
+#section{width: 1260px; height: 3000px; background-color:#abff7b; margin: 30px 0 0 0px;}
+#section > ul {width:1260px; height:70px; margin: 0;}
+#section > ul > li {width:251px; height:48px; background-color:#fff; float:left; border-top:2px solid #b9b9b9; border-bottom:2px solid #000; font-size:15px;}
+#section > ul > li > a {float:left; color:#000; text-decoration: none; padding: 20px; text-align:center; margin: 0 0 0 72px;  }
+#section > ul > li:nth-child(1) {background-color:#fff; border:1px solid #000; border-bottom:none; color:#000;}
+#section > #detail_box {width:100%; height:270px;}
+#section > #detail_box > ul {display:block; width:1100px; height:280px;  margin:100px 35px 0px;}
+#section > #detail_box > ul > li {font-size:13px; list-style:disc; margin:7px 10px; color:#666;}
+
+#qna{width: 1260px; height: 500px; background-color: rgb(255, 255, 255); margin: 30px 0 0 0px;}
+#qna > ul {width:1260px; height:70px; margin: 0; }
+#qna > ul > li {width:251px; height:48px; background-color:#fff; float:left; border-top:2px solid #b9b9b9; border-bottom:2px solid #000; font-size:15px;}
+#qna > ul > li > a {float:left; color:#000; text-decoration: none; padding: 20px; text-align:center; margin: 0 0 0 65px;  }
+#qna > ul > li:nth-child(2) {background-color:#fff; border:1px solid #000; border-bottom:none; color:#000;}
+#qna > #qna_box {width:100%; height:270px;}
+#qna > #qna_box > ul {display:block; width:1100px; height:280px;  margin:100px 35px 0px;}
+#qna > #qna_box > ul > li {font-size:13px; list-style:disc; margin:7px 10px; color:#666;}
+#qna_box >table{width: 1240px; height: 350px; border-top: none; border-bottom: none; margin: 0 auto;} 
+#qna_box button{float: right; height: 40px; width: 100px; background-color: #fff; }
+#qna_box button:hover{color: #fff; background-color: #000;}
+#qna_box td{font-size: 16px; padding: 20px; width: 100%; border-bottom: 1px solid #a2a2a2;}
+#qna_box td  a{cursor: pointer; text-decoration: none; color: #000; }
+
+#bestitem{width: 1260px; height: 1050px; margin: 30px 0 0 0px; background-color: #fff;}
+#bestitem > ul {width:1260px; height:70px; margin: 0; }
+#bestitem > ul > li {width:251px; height:48px; background-color:#fff; float:left; border-top:2px solid #b9b9b9; border-bottom:2px solid #000; font-size:15px;}
+#bestitem > ul > li > a {float:left; color:#000; text-decoration: none; padding: 20px; text-align:center; margin: 0 0 0 72px;  }
+#bestitem > ul > li:nth-child(3) {background-color:#fff; border:1px solid #000; border-bottom:none; color:#000;}
+#bestitem > #bestitem_box {width:100%; height:270px;}
+#bestitem > #bestitem_box > ul {display:block; width:1100px; height:280px;  margin:100px 35px 0px;}
+#bestitem > #bestitem_box > ul > li {font-size:13px; list-style:disc; margin:7px 10px; color:#666;}
+#bestitem_box > h1{padding: 20px; font-size: 22px; font-weight: bold; margin: 0 0 0 25px;}
+.best_item{width:250px; height:340px; padding: 15px; float: left; margin: 10px 0 10px 28px; }
+.best_item >a >img{width: 100%; height:240px;}
+.best_item >h2{font-size: 17px; margin: 10px 0 0 0px; line-height: 25px;}
+.best_item >h3{font-size: 18px; margin: 10px 0 0 0px; color: #6d6d6d;}
+#bestitem_box button{font-size: 19px; font-weight: bold; margin: 40px 0 0 570px;  height: 45px; width: 135px; background-color: #fff; border: 1px solid #757575 }
+#bestitem_box button:hover{color: #fff; background-color: #000;}
+
+ #review{width: 1260px; height: 1020px; margin: 30px 0 0 0px;}
+ #review> ul {width:1260px; height:70px; margin: 0;}
+#review > ul > li {width:251px; height:48px; background-color:#fff; float:left; border-top:2px solid #b9b9b9; border-bottom:2px solid #000; font-size:15px;}
+#review > ul > li > a {float:left; color:#000; text-decoration: none; padding: 20px; text-align:center; margin: 0 0 0 65px;  }
+#review > ul > li:nth-child(4) {background-color:#fff; border:1px solid #000; border-bottom:none; color:#000;}
+#review > #review_box {width:100%; height:270px;}
+#review > #review_box > ul {display:block; width:1100px; height:280px;  margin:100px 35px 0px;}
+#review > #review_box > ul > li {font-size:13px; list-style:disc; margin:7px 10px; color:#666;}
+#review_box > h1{padding: 13px; font-size: 22px; font-weight: bold; margin: 0 0 10px 5px;}
+#first_review{background-color: #fff; width:100px; height: 100px; float: left; margin: 0 0 0 15px; border: 3px solid #bebebe; cursor: pointer; }
+#first_review h1{font-size:15px; color: #000; text-decoration: none; text-align: center; margin: 15px 0 0 0px;}
+#first_review h2{font-size:25px; color: #000; font-weight: bold; text-decoration: none; text-align: center; margin: 8px 0 0 0px; }
+#first_review h3{font-size:17px; color: #ff2828; text-decoration: none; text-align: center; margin: 5px 0 0 0px;}
+.review{width:100px; height: 100px; float: left; background-color: #666; margin:0 0 0 13px;} 
+.review >a >img{width: 100%; height: 100%; }
+#review_list{width: 1260px; height: 50px; margin: 140px 0 0 0px;}
+#review_list table{width: 1260px; height: 50px; margin: 0 auto; border-top: none;}
+#review_list td{font-size: 22px; font-weight: bold;  width:120px; text-align: center;}
+#review_list th{font-size: 18px;  width: 80px; float: left;}
+#list3{border:none; font-size: 20px;}
+.review_list{width: 1260px; height: 420px; margin: 0 auto; border-top: none; border-bottom: none;}  
+.review_list td{border-bottom: 1px solid #6d6d6d; padding: 25px;}
+.review_list th{width: 130px; border-bottom: 1px solid #6d6d6d; padding: 26px;}
+.review_list td a{cursor: pointer; text-decoration: none; color: #000;}
+#review_box >button{float: right; margin: 20px 18px 0 0px; background-color: #fff;}
+#review_box >button:hover{color: #fff; background-color: #000;}
+
+ #inquiry{width: 1260px; height: 600px; margin: 30px 0 0 0px;}
+ #inquiry > ul {width:1260px; height:70px; margin: 0; }
+#inquiry > ul > li {width:251px; height:48px; background-color:#fff; float:left; border-top:2px solid #b9b9b9; border-bottom:2px solid #000; font-size:15px;}
+#inquiry > ul > li > a {float:left; color:#000; text-decoration: none; padding: 20px; text-align:center; margin: 0 0 0 72px;  }
+#inquiry > ul > li:nth-child(5) {background-color:#fff; border:1px solid #000; border-bottom:none; color:#000;}
+#inquiry > #inquiry_box {width:100%; height:270px;}
+#inquiry > #inquiry_box > ul {display:block; width:1100px; height:280px;  margin:100px 35px 0px;}
+#inquiry > #inquiry_box > ul > li {font-size:13px; list-style:disc; margin:7px 10px; color:#666;}
+#inquiry_box > h1{padding: 13px; font-size: 22px; font-weight: bold; margin: 0 0 10px 5px;}
+#inquiry_box table{width: 1260px; margin: 0 auto;}
+#inquiry_box #top  td{margin: 0 auto; height:20px; width: 100px; padding: 20px; font-size: 18px; font-weight: bold;  background-color: #f2f2f2; border-top: 1px solid #bebebe; border-bottom: 1px solid #bebebe;}
+#inquiry_box #top  th{background-color: #f2f2f2;  border-top: 1px solid #bebebe; border-bottom: 1px solid #bebebe;}
+#inquiry_box table td{ padding: 16px; border-bottom: 1px solid #6d6d6d; border-top: none; border-bottom: 1px solid #bebebe; }
+#inquiry_box >button{float: right; margin: 20px 18px 0 0px; background-color: #fff;}
+#inquiry_box >button:hover{color: #fff; background-color: #000;}
